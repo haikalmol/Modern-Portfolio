@@ -6,6 +6,9 @@ const nextConfig = {
     // Ini akan men-skip error ESLint saat build
     ignoreDuringBuilds: true,
   },
+
+  output: 'export',
+  images: { unoptimized: true }
 };
 
 module.exports = nextConfig;
